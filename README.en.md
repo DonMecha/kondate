@@ -2,7 +2,7 @@
 
 [日本語](README.md) | English
 
-A prototype shopping agent that adapts tonight's dinner plan to the stock and sales at nearby grocery stores. Import a price tag from a photo, and each store's total and ranking update on the spot. Built for hackathon demos, it has a phone view and a projector view.
+A prototype shopping agent that adapts tonight's dinner plan to the stock and sales at nearby grocery stores. Import a price tag from a photo, and each store's total and ranking update on the spot. It has a phone view and a projector view.
 
 **All stores, products, prices, stock levels, and travel times are fictional demo data.** It contains no real store data, no scraping, and no ordering or purchasing features. The UI is in Japanese.
 
