@@ -81,7 +81,7 @@ export class OllamaProvider implements AIProvider {
       textModel:
         process.env.OLLAMA_TEXT_MODEL ?? "qwen3:30b-a3b-instruct-2507-q4_K_M",
       visionModel: process.env.OLLAMA_VISION_MODEL ?? "qwen3-vl:32b",
-      timeoutMs: Number(process.env.OLLAMA_TIMEOUT_MS ?? 120000),
+      timeoutMs: Number(process.env.OLLAMA_TIMEOUT_MS ?? 180000),
     },
   ) {}
   async generate(

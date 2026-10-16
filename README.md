@@ -54,7 +54,7 @@ npm test
 | `OLLAMA_URL` | `http://127.0.0.1:11434`。Ollamaの `/api/chat` を使う |
 | `OLLAMA_TEXT_MODEL` | `qwen3:30b-a3b-instruct-2507-q4_K_M` |
 | `OLLAMA_VISION_MODEL` | `qwen3-vl:32b` |
-| `OLLAMA_TIMEOUT_MS` | `120000`。再試行を含め最大2要求 |
+| `OLLAMA_TIMEOUT_MS` | `180000`。再試行を含め最大2要求 |
 | `HOST` / `PORT` | `127.0.0.1` / `3000` |
 | `MAP_LAT` / `MAP_LNG` | 地図の初期中心。店の座標はデモ用の固定値 |
 

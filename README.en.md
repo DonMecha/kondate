@@ -54,7 +54,7 @@ Set these environment variables for the server process.
 | `OLLAMA_URL` | `http://127.0.0.1:11434`, using Ollama's `/api/chat` |
 | `OLLAMA_TEXT_MODEL` | `qwen3:30b-a3b-instruct-2507-q4_K_M` |
 | `OLLAMA_VISION_MODEL` | `qwen3-vl:32b` |
-| `OLLAMA_TIMEOUT_MS` | `120000`, at most two requests including one retry |
+| `OLLAMA_TIMEOUT_MS` | `180000`, at most two requests including one retry |
 | `HOST` / `PORT` | `127.0.0.1` / `3000` |
 | `MAP_LAT` / `MAP_LNG` | Initial map center. Store coordinates are fixed demo values |
 
